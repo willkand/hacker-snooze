@@ -1,0 +1,44 @@
+.navbar {
+    background-color: grey;
+    padding: 6px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+#home{
+    border: 10px solid white;
+    margin: 2px;
+    padding: 4px;
+}
+
+#header{
+    margin: auto;
+    padding: 10px;
+}
+
+.header-links{
+    margin: 2px;
+    padding: 2px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+
+#news-container{
+    margin: 10px;
+    border: 10px solid orange;
+    padding: 10px;
+    background-color: rgb(173, 243, 173);
+}
+
+@media screen and (max-width:700px) {
+    .navbar{
+        font-size: smaller;
+    }
+
+    #news-container{
+        font-size: smaller;
+    }
+}
